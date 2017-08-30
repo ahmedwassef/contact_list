@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link  rel="stylesheet"href="css/bootstrap.minar.css">
+    <link  rel="stylesheet"href="css/font-awesome.min.css">
+    <link  rel="stylesheet"href="css/animate.min.css">
+
+ <link  rel="stylesheet"href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1>دورة تعلم التدريب للفتيات برأس الخليج</h1>
+
+<div class="info">
+    <img src="img/logo.png">
+    <p> صتع بكل  <i class="fa fa-heart"></i> بواسطة صفحة رأس الخليج </p></a></div>
+
+<form id="RForm" data-toggle="validator"  method="post" role="form">
+    <h1>: من فضلك املئ البيانات التالية بصورة صحيحة للتقديم في الدورة </h1>
+
+    <div class="contentform">
+        <div id="msgSubmit" class="hidden"> تم التسجيل في الدورة بنجاح . سنقوم بالرد عليك لاحقا </div>
+
+
+        <div class="rightcontact">
+
+            <div class="form-group">
+                <p>كل مايحتوي علامه  <span>*</span> مطلوب</p>
+<br>
+<br>
+<br>
+                <p>الاسم <span>*</span></p>
+                <span class="icon-case"><i class="fa fa-user"></i></span>
+                <input type="text" name="prenom" id="prenom" pattern=".{15,}" class="form-control" placeholder="مثال :  ادخل اسمك هنا من فضلك" data-error="ادخل الاسم من فضلك  لا يقل عن 15 حرف"required/>
+                <br>
+                <br><br>
+                <br>
+
+                <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+                <p>العنوان <span>*</span></p>
+                <span class="icon-case"><i class="fa fa-user"></i></span>
+                <select class="form-control" id="address">
+                    <option value="حي المسجد الكبير"> حي المسجد الكبير</option>
+                    <option value="حي المنشية" > حي المنشية </option>
+                    <option value="حي الترعه" >حي الترعه</option>
+                    <option value=" حي التجاره"> حي التجاره</option>
+                    <option value=" حي الشونة"> حي الشونة</option>
+                    <option value="حي ابو النجا"> حي ابو النجا</option>
+                    <option value=" حي الاربعين"> حي الاربعين</option>
+                    <option value=" حي العجمي"> حي العجمي</option>
+                    <option value=" حي البساطي"> حي البساطي</option>
+                    <option value=" حي الساحل"> حي الساحل</option>
+                    <option value=" حي الجزيره"> حي الجزيره</option>
+                    <option value="حي البحر"> حي البحر</option>
+                    <option value="حي القدس"> حي القدس</option>
+                    <option value="  حاره العزبة">  حاره العزبة</option>
+                    <option value="  حاره الصاري">  حاره الصاري</option>
+                    <option value=" منطقة عبدالل"> منطقة عبدالله</option>
+                    <option value="منطقة مزرعة ابو شحاته"> منطقة مزرعة ابو شحاته</option>
+                    <option value="منطقة السلاموني"> منطقة السلاموني </option>
+                    <option value="منطقة الدرواى"> منطقة الدرواى </option>
+                    <option value="منطقة الجبانة"> منطقة الجبانة</option>
+                    <option value=" منطقة السوق"> منطقة السوق</option>
+                </select>
+                <br>
+                <br><br>
+                <br>
+
+                <div class="help-block with-errors"></div>
+            </div>
+
+
+
+        </div>
+
+        <div class="leftcontact">
+            <div class="form-group">
+                <p>الهاتف المحمول  <span>*</span></p>
+                <span class="icon-case"><i class="fa fa-phone"></i></span>
+                <input type="text" name="phone"  class="form-control"id="phone" pattern="[0-9]{1,11}.{10,}" maxlength="11"data-rule="maxlen:11" data-error="ادخل رقم هاتف صحيح" required/>
+                <br>
+                <br><br>
+                <br>
+
+                <div class="help-block with-errors"></div>
+            </div>
+                <div class="form-group">
+                    <p> التليفون الارضي <span></span></p>
+                    <span class="icon-case"><i class="fa fa-phone"></i></span>
+                    <input type="text" name="phone"  class="form-control"id="phone2" pattern="[0-9]{1,7}.{6,}" maxlength="7"data-rule="maxlen:11" data-error="ادخل رقم هاتف صحيح" required/>
+                    <br>
+                    <br><br>
+                    <br>
+
+                    <div class="help-block with-errors"></div>
+            <div class="form-group">
+                <p>الايميل <span></span></p>
+                <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="email" name="email" class="form-control" id="email"  data-error="من فضلك اعد كتابه البريد الالكتروني بشكل صحيح" />
+                <br>
+                <br><br>
+                <br>
+                <div class="help-block with-errors"></div>
+
+            </div>
+
+        </div>
+    </div>
+    <button type="submit" class="bouton-contact">ارسل</button>
+
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
+ <script src="js/form.js"></script>
+
+</body>
+</html>
